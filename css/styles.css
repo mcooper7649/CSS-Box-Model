@@ -9,16 +9,21 @@ h1 {
 div {
     height: 200px;
     width: 200px;
+    border: 10px solid black;
 }
 
 .top-container {
     background-color: burlywood;
+    padding: 20px;
 }
 
 .middle-container {
     background-color: crimson;
+    border: 20px solid black;
+    margin-left: 260px;
 }
 
 .bottom-container {
     background-color: darkblue;
+    margin-left: 500px;
 }

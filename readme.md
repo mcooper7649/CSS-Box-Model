@@ -31,4 +31,8 @@ Lesson 3. Box Model
 
 
 Challenge
-1. Create 3 Div's TOP, MIDDLE, BOTTOM. Assign Classes and give different background colors to differientiate.
+1. Create 3 Div's TOP, MIDDLE, BOTTOM. Assign Classes and give different background colors to differientiate.# CSS-Box-Model
+2. 3 boxes all 200px x 200px
+3. 1st box: 10px border and 20px padding
+4. 2nd box: 20px border
+5. 3rd box: 10px border
