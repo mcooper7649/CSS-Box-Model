@@ -36,3 +36,11 @@ Challenge
 3. 1st box: 10px border and 20px padding
 4. 2nd box: 20px border
 5. 3rd box: 10px border
+
+
+
+REVERT SITE AFTER CHALLENGE
+
+Display Lesson 
+1. BlockElements: Takes up whole width. Many html tags default to block elements.
+2. Span lets you stylize partial elements
