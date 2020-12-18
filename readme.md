@@ -5,7 +5,7 @@ Resources:
 https://www.favicon.cc/ - Create favicons
 https://pesticide.io/ - Extension
 https://colorhunt.co/palette/226680 - Color Pallette Used
-
+https:fonts.google.com/ - Font Embedding
 CSS Intermediate Challenge
 Lesson 1
 
@@ -67,3 +67,16 @@ CSS RULES
 14. Margin AUTO lets you auto center elements with width specified. example margin: 0, auto, 0, auto; centers horizontally.
 
 
+Font lesson
+
+1. WebSafe Fonts have the best success rate with many devices.
+2. A font-family used with a stack is has the best success rate. 
+3. Font embedding is a way to help all devices see the same font. fonts.google.com
+
+Font Challenge 
+
+1. CHALLENGE: Set the text colour for the h1 and h2 to both be the colour with hex code: #66BFBF
+2. CHALLENGE: Set the text colour for the h3 and anchor tag to be the colour with hex code #11999E
+3. CHALLENGE: Change the “a programmer” subtitle to font weight:
+
+normal
