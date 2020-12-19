@@ -77,6 +77,20 @@ Font Challenge
 
 1. CHALLENGE: Set the text colour for the h1 and h2 to both be the colour with hex code: #66BFBF
 2. CHALLENGE: Set the text colour for the h3 and anchor tag to be the colour with hex code #11999E
-3. CHALLENGE: Change the “a programmer” subtitle to font weight:
+3. CHALLENGE: Change the “a programmer” subtitle to font weight: normal.
+4. CHALLENGE: Change the line height to double what it currently is.
 
-normal
+CSS Float and Clear Challenge
+1. Make each skill row only 50% of the width of the screen.
+2. Make each skill row have 100px margin top and bottom. 
+3. Make the skills text left-aligned.
+4. Double the line height of the skill row.
+5. Make each skill row image have the 25% the width of the skill row.
+6. Use float to put the 1st image to the left of the text in skills section.
+7. Create 30px space between the  1st image and the text.
+8. Use float to put the 2nd image to the right of the text in skills section.
+9. Create 30px space between the  1st image and the text.
+10. Use float to prevent the wrapping on both paragraphs. (removed due to aestethics)
+
+* Clear is like an anti-float. Prevents the wrapping.
+* Only use float when neccesary and only use for text wrapping.
