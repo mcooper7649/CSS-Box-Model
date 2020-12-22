@@ -1,6 +1,7 @@
 /* Welcome to my style sheet */
 
 
+
 /* Tags */
 
 body {
@@ -21,11 +22,21 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
+    margin: 5%;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    margin: 5%;
+}
+
+hr {
+    border-top: 10px;
+    border-bottom: 0px;
+    border-style: dotted;
+    width: 10%;
+    color: grey;
 }
 
 
@@ -34,6 +45,8 @@ h3 {
 
 
 /* Classes */
+
+
 
 .top-container {
     background-color: burlywood;
@@ -46,12 +59,29 @@ h3 {
 }
 
 .middle-container {
-    
-    
+    padding: 5% 0%;
+    background-color: #EAF6F6;
 }
 
 .bottom-container {
+    background-color: #66BFBF;
+    padding: 5%;
+}
 
+.bottom-container a {
+    color: burlywood;
+    text-decoration: none;
+    padding: 3%;
+    
+}
+
+.intro {
+    margin: 5% 35%;
+}
+
+.profile {
+    text-align: center;
+    
 }
 
 .pro {
@@ -63,6 +93,10 @@ position: absolute;
 right: 300px;
 top: 50px;
 
+}
+
+.contact-message {
+    padding: 5%;
 }
 
 .bottom-cloud {
@@ -98,6 +132,44 @@ bottom: 300px;
     margin-right: 30px;
     
 }
+
+.copyright {
+    color: white;
+    padding-top: 3%;
+}
+
+.contact {
+    background: rgba(61, 239, 246, 0.75);
+    background-image: -webkit-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    background-image: -moz-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    background-image: -ms-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    background-image: -o-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    background-image: -webkit-gradient(to bottom, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 200px;
+    font-size: 29px;
+    font-weight: 500;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .contact:hover {
+    background: #1E62D0;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
 
 
 

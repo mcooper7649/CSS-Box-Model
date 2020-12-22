@@ -6,6 +6,11 @@ https://www.favicon.cc/ - Create favicons
 https://pesticide.io/ - Extension
 https://colorhunt.co/palette/226680 - Color Pallette Used
 https:fonts.google.com/ - Font Embedding
+https://cssbuttoncreator.com/ - Button Creator Website.
+
+
+
+
 CSS Intermediate Challenge
 Lesson 1
 
@@ -94,3 +99,19 @@ CSS Float and Clear Challenge
 
 * Clear is like an anti-float. Prevents the wrapping.
 * Only use float when neccesary and only use for text wrapping.
+
+
+
+CSS Challenge 
+
+1. In this lesson, you can download the end specification for how we want our website to look. It’s PDF specification that shows you how everything should roughly be laid out and what are the colours and sizes of all our elements on our web page. 
+
+LINK - https://drive.google.com/uc?export=download&id=1vrdEeFZKcv1XZOK6yLMAEq6mPxz6K2Bg
+
+
+
+Use this file as a guide to modify the CSS of our current website to make it resemble the specification.
+
+
+
+NOTE: In order to create the buttons in the specification you’ll need to head over to this site and edit the button then copy and paste the CSS.
