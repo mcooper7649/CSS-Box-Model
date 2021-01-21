@@ -1,7 +1,7 @@
 /* Welcome to my style sheet */
 
 
-
+/* Pallette Used https://colorhunt.co/palette/219987 */
 /* Tags */
 
 body {
@@ -14,20 +14,20 @@ h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem; 
-    color: #66BFBF;
+    color: #aaaaaa;
 
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #66BFBF;
+    color: #aaaaaa;
     margin: 5% 0 0 0;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: black;
 }
 
 hr {
@@ -49,7 +49,7 @@ hr {
 
 
 .top-container {
-    background-color: burlywood;
+    background-color: #f9f7cf;
     position: relative;
     padding-top: 100px;
 }
@@ -60,25 +60,25 @@ hr {
 
 .middle-container {
     padding: 5% 0%;
-    background-color: #EAF6F6;
+    background-color: #f2dcbb;
 }
 
 .bottom-container {
-    background-color: #66BFBF;
+    background-color: #f9f7cf;;
     padding: 5%;
 }
 
 .bottom-container a {
-    color: black;
+    color: burlywood;
     text-decoration: none;
-    padding: 3%;
-    margin-bottom: 3%;
+    padding: 15px;
+    margin-bottom: 10px;
     line-height: 2.8;
     width: 80%;
 }
 
 .bottom-container a:hover {
-    color: burlywood;
+    color: black;
     
     
 }
@@ -144,17 +144,17 @@ bottom: 300px;
 }
 
 .copyright {
-    color: white;
+    color: #bbbbbb;
     padding-top: 3%;
 }
 
 .contact {
-    background: rgba(61, 239, 246, 0.75);
-    background-image: -webkit-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
-    background-image: -moz-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
-    background-image: -ms-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
-    background-image: -o-linear-gradient(top, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
-    background-image: -webkit-gradient(to bottom, rgba(61, 239, 246, 0.75), rgba(11, 113, 132, 0.98));
+    background: #f9f7cf;
+    background-image: -webkit-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
+    background-image: -moz-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
+    background-image: -ms-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
+    background-image: -o-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
+    background-image: -webkit-gradient(to bottom, #f9f7cf, rgba(11, 113, 132, 0.98));
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -174,7 +174,12 @@ bottom: 300px;
  }
  
  .contact:hover {
-    background: burlywood;
+    background: #f2dcbb;
+    background-image: -webkit-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
+    background-image: -moz-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
+    background-image: -ms-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
+    background-image: -o-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
+    background-image: -webkit-gradient(to bottom, #f2dcbb, rgba(11, 113, 132, 0.98));
     border: solid #FFFFFF 1px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
