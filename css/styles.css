@@ -150,11 +150,11 @@ bottom: 300px;
 
 .contact {
     background: #f9f7cf;
-    background-image: -webkit-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
-    background-image: -moz-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
-    background-image: -ms-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
-    background-image: -o-linear-gradient(top, #f9f7cf, rgba(11, 113, 132, 0.98));
-    background-image: -webkit-gradient(to bottom, #f9f7cf, rgba(11, 113, 132, 0.98));
+    background-image: -webkit-linear-gradient(top, #f9f7cf, #8DBFD3);
+    background-image: -moz-linear-gradient(top, #f9f7cf, #8DBFD3);
+    background-image: -ms-linear-gradient(top, #f9f7cf, #8DBFD3);
+    background-image: -o-linear-gradient(top, #f9f7cf, #8DBFD3);
+    background-image: -webkit-gradient(to bottom, #f9f7cf, #8DBFD3);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -175,11 +175,11 @@ bottom: 300px;
  
  .contact:hover {
     background: #f2dcbb;
-    background-image: -webkit-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
-    background-image: -moz-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
-    background-image: -ms-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
-    background-image: -o-linear-gradient(top, #f2dcbb, rgba(11, 113, 132, 0.98));
-    background-image: -webkit-gradient(to bottom, #f2dcbb, rgba(11, 113, 132, 0.98));
+    background-image: -webkit-linear-gradient(top, #f2dcbb, #8DBFD3);
+    background-image: -moz-linear-gradient(top, #f2dcbb, #8DBFD3);
+    background-image: -ms-linear-gradient(top, #f2dcbb, #8DBFD3);
+    background-image: -o-linear-gradient(top, #f2dcbb, #8DBFD3);
+    background-image: -webkit-gradient(to bottom, #f2dcbb, #8DBFD3);
     border: solid #FFFFFF 1px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
