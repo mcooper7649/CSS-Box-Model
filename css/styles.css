@@ -56,7 +56,9 @@ hr {
 
 /* Classes */
 
-
+.fa-heart {
+    color: red;
+}
 
 .top-container {
     background-color: #f9f7cf;
@@ -196,6 +198,18 @@ bottom: 300px;
     border-radius: 20px;
     text-decoration: none;
  }
+
+ ul#projects li {
+    display:inline;
+  }
+
+  ul#portfolios li {
+    display:inline;
+  }
+
+
+
+  
 
 
 
