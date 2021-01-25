@@ -4,11 +4,29 @@
 /* Pallette Used https://colorhunt.co/palette/219987 */
 /* Tags */
 
+body, html {
+    height: 100%;
+  }
+
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fthenextweb.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2013%2F09%2Fin-the-diamonds-fields_1.jpg&f=1&nofb=1");
+  
+    /* Full height */
+    /* height: 100%; */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 
@@ -24,13 +42,13 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #aaaaaa;
+    color: #f2dcbb;
     margin: 5% 0 0 0;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #f2dcbb;
 }
 
 hr {
@@ -67,6 +85,7 @@ hr {
 
 .prg-weight {
     font-weight: normal;
+    color: #aaaaaa;
 }
 
 .middle-container {
