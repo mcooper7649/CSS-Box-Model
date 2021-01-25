@@ -15,7 +15,7 @@ body {
         margin: 0;
         text-align: center;
         font-family: 'Merriweather', serif;
-        width: min-content;
+        width: max-content;
     }
 }
 
@@ -83,10 +83,9 @@ hr {
 .bottom-container a {
     color: burlywood;
     text-decoration: none;
-    padding: 15px;
+
     margin-bottom: 10px;
     line-height: 2.8;
-    width: 80%;
 }
 
 .bottom-container a:hover {
@@ -197,6 +196,10 @@ bottom: 300px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+ }
+
+ .fa-ul {
+     margin-left: 0;
  }
 
   ul#portfolios li {
