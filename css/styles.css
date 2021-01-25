@@ -213,7 +213,7 @@ bottom: 300px;
     padding: 0 20px;
   }
 
-  @media (max-width: 812px){
+  @media (max-width: 568px){
     body {
         margin: 0;
         text-align: center;
@@ -222,11 +222,13 @@ bottom: 300px;
 
     .mountain {
         width: -moz-available;
+        width: 100%;
     }
 
     
     .profile-photo {
         width: -moz-available;
+        width: 100%;
     }
 
     .bottom-cloud {
