@@ -10,14 +10,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-@media (max-width: 812px){
-    body {
-        margin: 0;
-        text-align: center;
-        font-family: 'Merriweather', serif;
-        width: max-content;
-    }
-}
+
 
 
 h1 {
@@ -60,6 +53,12 @@ hr {
     color: red;
 }
 
+.fa-stack-1x, .fa-stack-2x {
+    left: 0;
+    position: unset;
+    text-align: center;
+    width: 100%;
+}
 .top-container {
     background-color: #f9f7cf;
     position: relative;
@@ -71,13 +70,13 @@ hr {
 }
 
 .middle-container {
-    padding: 5% 0%;
+    padding: 5% 5%;
     background-color: #f2dcbb;
 }
 
 .bottom-container {
     background-color: #f9f7cf;;
-    padding: 5%;
+    padding: 5% 0%;
 }
 
 .bottom-container a {
@@ -131,7 +130,7 @@ bottom: 300px;
 }
 
 .skill-row {
-    width: 1000px;
+    width: 100%;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
@@ -209,10 +208,46 @@ bottom: 300px;
   }
 
   ul#projects li {
-    display:inline;
+    display:inline-block;
     margin: 0 40px;
     padding: 0 20px;
   }
+
+  @media (max-width: 812px){
+    body {
+        margin: 0;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    }
+
+    .mountain {
+        width: -moz-available;
+    }
+
+    
+    .profile-photo {
+        width: -moz-available;
+    }
+
+    .bottom-cloud {
+        position: initial;
+        left: 300px;
+        bottom: 300px;
+        }
+
+        .top-cloud {
+            position: initial;
+            left: 300px;
+            bottom: 300px;
+            }
+    ul#projects li {
+                display:grid;
+                margin: 0 40px;
+                padding: 0 20px;
+              }
+
+   
+}
 
 
   
