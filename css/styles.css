@@ -199,14 +199,17 @@ bottom: 300px;
     text-decoration: none;
  }
 
- ul#projects li {
-    display:inline;
-  }
-
   ul#portfolios li {
     display:inline;
+    margin: 0 40px;
+    
   }
 
+  ul#projects li {
+    display:inline;
+    margin: 0 40px;
+    padding: 0 20px;
+  }
 
 
   
