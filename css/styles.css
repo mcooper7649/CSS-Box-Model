@@ -137,6 +137,14 @@ bottom: 300px;
     
 }
 
+.skill-row-2 {
+    width: 100%;
+    margin: 100px auto;
+    text-align: right;
+    line-height: 2;
+    
+}
+
 .code-img {
     border-radius: 50%;
     width: 25%;
