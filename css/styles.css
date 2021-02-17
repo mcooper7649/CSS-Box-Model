@@ -109,7 +109,6 @@ hr {
 .bottom-container a:hover {
     color: black;
     
-    
 }
 
 
@@ -222,6 +221,7 @@ bottom: 300px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
+    box-shadow: 0 5px 15px rgba(243, 203, 95, 0.4);
  }
 
  .fa-ul {
@@ -446,6 +446,8 @@ bottom: 300px;
         0% {margin-left: 1000px;}
         100% {margin-left: -1000px;}
       }
+
+      
 }
   
 
